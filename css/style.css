@@ -38,3 +38,63 @@ header {
     justify-content: space-between;
     transition: all .50s ease;
 }
+
+.logo {
+    font-size: 33px;
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+span {
+    color: var(--main-color);
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    color: var(--text-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+    margin: 15px 22px;
+    transition: all .50s ease;
+}
+
+.navbar a:hover {
+    color: var(--main-color);
+}
+
+.h-right {
+    display: flex;
+    align-items: center;
+}
+
+.h-right a:first-child {
+    color: var(--text-color);
+    font-size: var(--p-font);
+    margin-right: 20px;
+}
+
+.h-right a {
+    vertical-align: middle;
+    font-size: 20px;
+    color: var(--text-color);
+    margin-right: 18px;
+    margin-left: 5px;
+    transition: all .50s ease;
+}
+
+.h-right a:hover {
+    color: var(--main-color);
+    transform: translateY(-3px);
+}
+
+#menu-icon {
+    color: var(--text-color);
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 10001;
+    /* todo */
+    display: none;
+}
