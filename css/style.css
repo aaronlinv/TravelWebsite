@@ -140,7 +140,7 @@ section {
 }
 
 .btn {
-    /* display: inline-block; */
+    display: inline-block;
 
     padding: 13px 40px;
     background-color: var(--main-color);
