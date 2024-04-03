@@ -160,3 +160,9 @@ section {
     background-color: transparent;
     color: var(--text-color);
 }
+
+header.sticky {
+    padding: 8px 17%;
+    background: transparent;
+    backdrop-filter: blur(35px);
+}
