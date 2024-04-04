@@ -371,6 +371,52 @@ header.sticky {
     font-size: var(--p-font);
     color: var(--text-color);
     border-radius: 5px;
+}
 
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 2rem;
+}
 
+.footer-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-box h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.footer-box a {
+    color: #979797;
+    margin-bottom: 0.8rem;
+    transition: all .50s ease;
+}
+
+.footer-box a:hover {
+    transform: translateX(-5px);
+    color: var(--text-color);
+}
+
+.social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    background: #202020;
+    color: var(--text-color);
+    font-size: 20px;
+    border-radius: 50%;
+    margin-right: 8px;
+    transition: all .6s;
+}
+
+.social a:hover {
+    background: var(--main-color);
+    color: var(--bg-corlor);
+    transform: translateX(-4px);
 }
