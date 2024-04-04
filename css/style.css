@@ -513,3 +513,42 @@ header.sticky {
     }
 
 }
+
+@media (max-width: 800px) {
+    .holiday {
+        grid-template-columns: 1fr;
+    }
+
+    .culture {
+        grid-template-columns: 1fr;
+    }
+
+    .newsletter-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    :root {
+        --h1-font: 3.5rem;
+        --h2-font: 2.1rem;
+    }
+
+    .home {
+        height: 85vh;
+    }
+}
+
+@media (max-width: 450px) {
+    header {
+        padding: 12px 3%;
+    }
+
+    header.sticky {
+        padding: 7px 3%;
+    }
+
+    section {
+        padding: 60px 3% 50px;
+    }
+}
